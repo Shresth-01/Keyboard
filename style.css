@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(90, 90, 90);
+    color: rgb(255, 255, 255);
+}
+div{
+    display: block;
+}
+*{
+    box-sizing: border-box;
+}
+.key_one{
+    background-color: black;
+    border: 5px solid black;
+    text-align: center;
+    border-radius: 5px;
+    height: 50px;
+    
+    width:max-content;
+    margin: 0 5px 0 0;
+    
+    flex-grow: 1;
+
+}
+.keyboard{
+    height: 400px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    margin: 5%;
+    border-radius: 10px;
+    
+}
+.keyrow{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 10px;
+    line-height: 40px;
+    flex-wrap: wrap; 
+}
+.key_two{
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width:max-content;
+    margin: 0 5px 0 0;
+    flex-grow:2;
+    text-align: center;
+}
+.key_five{
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width:max-content;
+    margin: 0 5px 0 0;
+    flex-grow:10;
+}
